@@ -1,0 +1,7 @@
+Problem:
+I used "git rebase main" to bring the changes on main into dev_f2.
+However, Git blocks the push because the local history has been rewritten during the rebase process.
+
+Solution:
+I suppose this branch only belongs to me and I know what I am doing.
+So I used "git push --force" to push to the remote.
